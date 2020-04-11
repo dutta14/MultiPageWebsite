@@ -25,7 +25,7 @@
       <h1 class="project-name">MultiPageWebsite</h1>
       <h2 class="project-tagline"></h2>
         {% for page in site.pages %}
-            <a href={{ page.filename }}>{{ page.title }}</a>
+            <a href= {{ page.filename }} class="btn">{{ page.title }}</a>
         {% endfor %}
         <a href="https://github.com/dutta14/MultiPageWebsite" class="btn">View on GitHub</a>
       
